@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ABABAB"
+    android:orientation="vertical" >
+
+	<com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="0dip" 
+        android:layout_weight="1"
+		android:name="com.google.android.gms.maps.MapFragment" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background ="@drawable/bg_tabbar"
+        android:orientation="horizontal" >    
+	    <Button
+	        android:id="@+id/myLocationBtn"
+	        android:layout_width="45dip"
+	        android:layout_height="40dip"
+	        android:layout_gravity="center"
+	        android:background ="@drawable/btn_map_user" />
+		<TextView android:id="@+id/hospitalName"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:textColor="#181818"
+			android:textSize="20sp"
+			android:gravity="center"
+			android:layout_gravity="center"/>	    
+	    <Button
+	        android:id="@+id/hospitalLocationBtn"
+	        android:layout_width="45dip"
+	        android:layout_height="40dip"
+	        android:layout_gravity="center"
+	        android:background ="@drawable/btn_map_hospital" />  
+    </LinearLayout>    
+    
+</LinearLayout>
+
+

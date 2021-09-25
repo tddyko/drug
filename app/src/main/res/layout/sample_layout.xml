@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <!-- 라인그리기 -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorDarkGray"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10">
+
+                <com.greencross.medigene.component.CFontButton
+                    android:id="@+id/sample_time_picker"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="시간 picker" />
+
+                <com.greencross.medigene.component.CFontButton
+                    android:id="@+id/sample_date_picker"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="달력 picker" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10">
+
+                <com.greencross.medigene.component.CFontButton
+                    android:id="@+id/sample_default_webivew"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:backgroundTint="@color/colorLightBlue"
+                    android:text="기본웹뷰" />
+
+                <com.greencross.medigene.component.CFontButton
+                    android:id="@+id/sample_draw_view2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="그림그리기 샘플2" />
+            </LinearLayout>
+
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10">
+
+            <com.greencross.medigene.component.CFontButton
+                android:id="@+id/sample_dlg_prescription"
+                android:backgroundTint="@color/colorLightBlue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="처방전dlalog" />
+
+            <com.greencross.medigene.component.CFontButton
+                android:id="@+id/sample_camera_exam"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:backgroundTint="@color/colorLightBlue"
+                android:text="카메라,갤러리" />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10">
+
+                <com.greencross.medigene.component.CFontButton
+                    android:id="@+id/sample_add_prescription"
+                    android:backgroundTint="@color/colorLightBlue"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="처방전추가" />
+
+                <com.greencross.medigene.component.CFontButton
+                    android:id="@+id/sample_manage_prescription"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:backgroundTint="@color/colorLightBlue"
+                    android:text="처방전관리" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10">
+
+                <Button
+                    android:id="@+id/sample_alert"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="AlertDialog" />
+
+                <Button
+                    android:id="@+id/sample_test_connection"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="네트워크연결" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10">
+
+                <Button
+                    android:id="@+id/db_import_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:backgroundTint="@color/colorLightBlue"
+                    android:text="DB Import" />
+
+                <Button
+                    android:id="@+id/db_export_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="DB Export" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical">
+
+                <!--바형 라디오 예제 -->
+                <RadioGroup
+                    android:id="@+id/radiogroup1"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <com.greencross.medigene.component.CFontRadioButton
+                        android:id="@+id/radio1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="그래프"
+                        style="@style/common_radio_style_left"/>
+
+                    <RadioButton
+                        android:id="@+id/radio2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        style="@style/common_radio_style_right"
+                        android:text="히스토리" />
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/period_radio_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <com.greencross.medigene.component.CFontRadioButton
+                        android:id="@+id/period_radio_btn_day"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/common_radio_style_left"
+                        android:checked="true"
+                        android:text="일간"
+                        />
+
+                    <com.greencross.medigene.component.CFontRadioButton
+                        android:id="@+id/period_radio_btn_week"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/common_radio_style_middle"
+                        android:gravity="center"
+                        app:font="@string/KelsonSansBold"
+                        android:text="주간" />
+
+                    <com.greencross.medigene.component.CFontRadioButton
+                        android:id="@+id/period_radio_btn_month"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        style="@style/common_radio_style_right"
+                        android:text="월간" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <!-- font typeface 적용 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.greencross.medigene.component.CFontTextView
+                    android:id="@+id/sample_type_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="setTypefaceNotoSansKRBold 코드로 적용 "
+                    android:layout_marginTop="10dp"/>
+
+                <com.greencross.medigene.component.CFontTextView
+                    app:font="@string/KelsonSansBold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NotoSansKRBold.otf xml Typeface "
+                    android:layout_marginTop="10dp"/>
+
+                <com.greencross.medigene.component.CFontEditText
+                    android:id="@+id/sample_type_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="setTypefaceNotoSansKRBold 코드로 적용 "
+                    style="@style/common_edittext_style"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical">
+
+            </View>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

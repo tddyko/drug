@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start">
+
+<RelativeLayout
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgound">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/li_version"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.greencross.medigene.component.CFontTextView
+                android:id="@+id/setting_row01"
+                style="@style/common_textview_fields"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:clickable="true"
+                android:text="@string/text_memberedit" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGray" />
+
+        <LinearLayout
+            android:id="@+id/setting_member_info_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:duplicateParentState="true"
+            android:orientation="horizontal">
+
+            <com.greencross.medigene.component.CFontTextView
+                android:id="@+id/setting_row02"
+                style="@style/common_textview_fields"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:clickable="true"
+                android:text="@string/text_agree" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGray" />
+
+        <LinearLayout
+            android:id="@+id/setting_medical_examination_modify_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:duplicateParentState="true"
+            android:orientation="horizontal">
+
+            <com.greencross.medigene.component.CFontTextView
+                android:id="@+id/setting_row03"
+                style="@style/common_textview_fields"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:clickable="true"
+                android:text="@string/text_agreesensitive" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGray" />
+
+
+        <LinearLayout
+            android:id="@+id/setting_active_modify_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:duplicateParentState="true"
+            android:orientation="horizontal">
+
+            <com.greencross.medigene.component.CFontTextView
+                android:id="@+id/setting_row04"
+                style="@style/common_textview_fields"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:clickable="true"
+                android:text="로그아웃" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGray" />
+
+
+        <LinearLayout
+            android:id="@+id/setting_active_autologin_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:duplicateParentState="true"
+            android:orientation="horizontal">
+
+            <com.greencross.medigene.component.CFontTextView
+                style="@style/common_textview_fields"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:clickable="true"
+                android:text="자동 로그인" />
+
+
+            <com.greencross.medigene.component.CFontCheckBox
+                android:id="@+id/setting_active_autologin_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/button_onoff"
+                android:gravity="center"
+                android:checked="true"
+                android:button="@null"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGray" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="50dp"
+        android:duplicateParentState="true"
+        android:orientation="horizontal"
+        android:background="@color/colorWhite">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:duplicateParentState="true"
+            android:orientation="horizontal">
+
+            <com.greencross.medigene.component.CFontTextView
+                style="@style/common_textview_fields"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:clickable="true"
+                android:text="버전정보" />
+
+
+            <com.greencross.medigene.component.CFontTextView
+                style="@style/common_textview_fields2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingRight="15dp"
+                android:clickable="true"
+                android:textAlignment="textEnd"
+                android:text="1.0   최신버전입니다" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorGray" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorGray" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@color/colorGray" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorGray" />
+
+    </RelativeLayout>
+</RelativeLayout>
+
+
+    <include
+        layout="@layout/app_bar_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/activity_navigation_drawer"/>
+
+    </android.support.v4.widget.DrawerLayout>

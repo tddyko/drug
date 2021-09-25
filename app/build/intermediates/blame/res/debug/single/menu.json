@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/menu/activity_navigation_drawer.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/menu/activity_navigation_drawer.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/menu/menu_tab.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/menu/menu_tab.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/menu/navigation.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/menu/navigation.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/menu/menu_scrolling.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/menu/menu_scrolling.xml"
+    }
+]

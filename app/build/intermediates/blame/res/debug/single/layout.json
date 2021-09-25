@@ -1,0 +1,486 @@
+[
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/d0fb4f531483f928d547a68e7b6a672d818e5416/output/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/d0fb4f531483f928d547a68e7b6a672d818e5416/output/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/dialog_list_item_textview.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/dialog_list_item_textview.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/servicereqstatus_list_activity.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/servicereqstatus_list_activity.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/fragment_drug_details.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/fragment_drug_details.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/dialog_prescription_view.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/dialog_prescription_view.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/dialog_listview.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/dialog_listview.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/nav_header_navigation.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/nav_header_navigation.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/d0fb4f531483f928d547a68e7b6a672d818e5416/output/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/sample_image_fragment.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/sample_image_fragment.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/content_navigation.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/content_navigation.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/dialog_prescription_item.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/dialog_prescription_item.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/categoryviewdetaillist_row.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/categoryviewdetaillist_row.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/activity_agree.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/activity_agree.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/appointment.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/appointment.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/d0fb4f531483f928d547a68e7b6a672d818e5416/output/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/fragment_manage_precription_detail.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/fragment_manage_precription_detail.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/main_activity.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/main_activity.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/alarmpopactivity.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/alarmpopactivity.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/appointmenthospitals_list.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/appointmenthospitals_list.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/categorylist_row.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/categorylist_row.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/fragment_healthinfo_list_item.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/fragment_healthinfo_list_item.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/custom_action_bar.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/custom_action_bar.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/join_step2_fragment.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/join_step2_fragment.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/calendarview.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/calendarview.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/hospitals_info.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/hospitals_info.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/care_items.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/care_items.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/fragment_drugsearch_list_item.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/fragment_drugsearch_list_item.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/fragment_history_list.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/fragment_history_list.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/d0fb4f531483f928d547a68e7b6a672d818e5416/output/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/affiliatedhospitals_list.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/affiliatedhospitals_list.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/alarm_receiver2.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/alarm_receiver2.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/login_fragment.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/login_fragment.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/activity_agree_sensitive.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/activity_agree_sensitive.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/affiliatedhospitals_fragment.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/affiliatedhospitals_fragment.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/hospital_map_fragment.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/hospital_map_fragment.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/activity_setting.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/activity_setting.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/fragment_check_apply_row.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/fragment_check_apply_row.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/join_step1_fragment.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/join_step1_fragment.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/alarmpopactivity2.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/alarmpopactivity2.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/appointmenthospitals_row.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/appointmenthospitals_row.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/d0fb4f531483f928d547a68e7b6a672d818e5416/output/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/affiliatedhospitals_row.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/affiliatedhospitals_row.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/pop_custom_dialog.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/pop_custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/fragment_healthinfo_list.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/fragment_healthinfo_list.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/fragment_add_prescription.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/fragment_add_prescription.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/fragment_manage_prescription.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/fragment_manage_prescription.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/categoryview_items.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/categoryview_items.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/fragment_check_result.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/fragment_check_result.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/d0fb4f531483f928d547a68e7b6a672d818e5416/output/res/layout/design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/fragment_history_list_item.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/fragment_history_list_item.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/dialog_listview_gallery_camera.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/dialog_listview_gallery_camera.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/alarm_row.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/alarm_row.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/sample_layout.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/sample_layout.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/fragment_check_apply_map.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/fragment_check_apply_map.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/categoryviewlist_row.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/categoryviewlist_row.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/d0fb4f531483f928d547a68e7b6a672d818e5416/output/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/fragment_manage_prescription_item.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/fragment_manage_prescription_item.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/fragment_tab.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/fragment_tab.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/tab_fragment.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/tab_fragment.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/custom_dialog.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/d0fb4f531483f928d547a68e7b6a672d818e5416/output/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/app_bar_navigation.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/app_bar_navigation.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/fragment_check_apply_list.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/fragment_check_apply_list.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/find_pwd_fragment.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/find_pwd_fragment.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/alarmset.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/alarmset.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/hospitals_info_detail.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/hospitals_info_detail.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/d0fb4f531483f928d547a68e7b6a672d818e5416/output/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/alarm_list_fragment.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/alarm_list_fragment.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/swipe_menu_list_item_view.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/swipe_menu_list_item_view.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/d0fb4f531483f928d547a68e7b6a672d818e5416/output/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/activity_serviceinfo.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/activity_serviceinfo.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/d0fb4f531483f928d547a68e7b6a672d818e5416/output/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/swpie_menu_list_layout.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/swpie_menu_list_layout.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/d0fb4f531483f928d547a68e7b6a672d818e5416/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/healthscreening_fragment.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/healthscreening_fragment.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/fragment_drugsearch_list.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/fragment_drugsearch_list.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/d0fb4f531483f928d547a68e7b6a672d818e5416/output/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/nav_main_fragment.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/nav_main_fragment.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/webview_fragment.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/webview_fragment.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/layout/activity_memedit.xml",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/layout/activity_memedit.xml"
+    }
+]

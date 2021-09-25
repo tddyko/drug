@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackgound">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_weight="1"
+    android:background="@color/colorBackgound">
+
+    <LinearLayout
+        android:id="@+id/preciption_main_linearview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:orientation="vertical">
+        <!-- 처방전 추가 -->
+
+        <com.greencross.medigene.component.CFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="처방전 이름"
+            android:textColor="@color/colorBlack"
+            app:font="@string/KelsonSansBold"/>
+
+        <com.greencross.medigene.component.CFontEditText
+            android:id="@+id/prescp_name_edittext"
+            style="@style/common_edittext_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="감기"
+            android:padding="8dp"
+            android:singleLine="true"
+            app:font="@string/KelsonSansLight" />
+
+        <com.greencross.medigene.component.CFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="처방 일시"
+            android:textColor="@color/colorBlack"
+            app:font="@string/KelsonSansBold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.greencross.medigene.component.CFontTextView
+                android:id="@+id/prescp_date_textview"
+                style="@style/common_edittext_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:hint="0000.00.00 금요일"
+                android:padding="8dp"
+                android:tag=""
+                android:singleLine="true"
+                app:font="@string/KelsonSansLight"/>
+
+            <com.greencross.medigene.component.CFontTextView
+                android:id="@+id/prescp_time_textview"
+                style="@style/common_edittext_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:hint="오전 00:00"
+                android:padding="8dp"
+                android:tag=""
+                android:singleLine="true"
+                app:font="@string/KelsonSansLight"/>
+        </LinearLayout>
+
+
+        <com.greencross.medigene.component.CFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="증상"
+            android:textColor="@color/colorBlack"
+            app:font="@string/KelsonSansBold"/>
+
+        <com.greencross.medigene.component.CFontEditText
+            android:id="@+id/prescp_effect_edittext"
+            style="@style/common_edittext_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="선택사항입니다."
+            android:padding="8dp"
+            android:singleLine="true"
+            app:font="@string/KelsonSansLight"/>
+
+
+        <com.greencross.medigene.component.CFontTextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="처방 병원"
+            android:textColor="@color/colorBlack"
+            app:font="@string/KelsonSansBold"/>
+
+        <com.greencross.medigene.component.CFontEditText
+            android:id="@+id/prescp_hospital_edittext"
+            style="@style/common_edittext_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="선택사항입니다."
+            android:padding="8dp"
+            android:singleLine="true"
+            app:font="@string/KelsonSansLight"/>
+
+        <com.greencross.medigene.component.CFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="약품명"
+            android:textColor="@color/colorBlack"
+            app:font="@string/KelsonSansBold"/>
+
+        <LinearLayout
+            android:id="@+id/prescp_drug_add_button"
+            style="@style/common_edittext_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@null"
+                android:src="@drawable/ic_add_22dp"/>
+
+            <com.greencross.medigene.component.CFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="약품 추가"
+                android:layout_marginStart="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                app:font="@string/KelsonSansBold"/>
+
+        </LinearLayout>
+
+        <com.greencross.medigene.component.CFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="복용방법"
+            android:textColor="@color/colorBlack"
+            app:font="@string/KelsonSansBold"/>
+
+        <com.greencross.medigene.component.CFontEditText
+            android:id="@+id/prescp_how_edittext"
+            style="@style/common_edittext_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="하루 세번 식후 30분"
+            android:padding="8dp"
+            app:font="@string/KelsonSansLight"/>
+
+        <com.greencross.medigene.component.CFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="처방전 이미지 추가"
+            android:textColor="@color/colorBlack"
+            app:font="@string/KelsonSansBold"/>
+
+        <ImageView
+            android:id="@+id/prescp_imageview"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="13dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/background_border2"
+            android:src="@drawable/ic_add_22dp"
+            android:tag="" />
+    </LinearLayout>
+
+</ScrollView>
+
+
+    <com.greencross.medigene.component.CFontButton
+        android:id="@+id/prescp_save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorMain"
+        android:layout_weight="0"
+        android:textColor="@color/colorWhite"
+        android:text="저장"/>
+
+    <com.greencross.medigene.component.CFontButton
+        android:id="@+id/prescp_modify_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:visibility="gone"
+        android:background="@color/colorMain"
+        android:textColor="@color/colorWhite"
+        android:text="수정"/>
+</LinearLayout>
+
+
+    <include
+        layout="@layout/app_bar_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/activity_navigation_drawer"/>
+
+
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_list_light"
+    android:padding="10dip"
+    android:orientation="horizontal" android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal" >
+
+            <ImageView 
+				    android:layout_marginLeft="5dip"
+					android:layout_width="13dp"
+					android:layout_height="13dp"
+					android:layout_gravity="center"
+					android:adjustViewBounds="true"
+					android:src="@drawable/ic_info_hospital" android:contentDescription="@string/selectLocationComment"/>
+
+            <com.greencross.medigene.component.CFontTextView
+                android:id="@+id/title"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <com.greencross.medigene.component.CFontTextView
+            android:id="@+id/contents"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="5dip"
+            android:textColor="@color/colorBlack"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical">
+
+        <com.greencross.medigene.component.CFontButton
+            android:id="@+id/btn2"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/main_subbox"
+            android:textSize="12sp"
+            android:text="병원\n정보"/>
+
+        <com.greencross.medigene.component.CFontButton
+            android:id="@+id/btn1"
+            android:layout_marginLeft="10dip"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/main_subbox"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:textSize="12sp"
+            android:text="검사\n항목" />
+
+    </LinearLayout>
+
+</LinearLayout>

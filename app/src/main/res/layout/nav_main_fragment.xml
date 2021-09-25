@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start">
+
+    <LinearLayout
+        android:id="@+id/headNav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <Button
+            android:id="@+id/move_tab_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메뉴이동"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/vi"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/li_request_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBackgound"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_exmark"
+                android:layout_marginTop="5dp"
+                />
+            <com.greencross.medigene.component.CFontTextView
+                style="@style/common_textview_fields2"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_height="20dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorMain"
+                android:text="주의약물" />
+
+        </LinearLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackgound"
+            >
+            <!-- 신청하지 않았을때 -->
+            <LinearLayout
+                android:id="@+id/li_request_before"
+                android:layout_above="@+id/li_main_footer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:paddingTop="30dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:visibility="gone">
+
+                <com.greencross.medigene.component.CFontButton
+                    android:id="@+id/btn_drug_request"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/colorMain"
+                    android:text="약물유전체 검사 신청"
+                    android:textColor="@color/colorWhite"
+                    app:font="@string/KelsonSansBold"
+                    android:clickable="true"/>
+
+            </LinearLayout>
+
+            <!-- 신청 했을때 -->
+            <LinearLayout
+                android:id="@+id/li_request_after"
+                android:layout_above="@+id/li_main_footer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorBackgound"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="160dp"
+                    android:layout_weight="2"/>
+
+
+
+                <!-- 이상반응 주의 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="60"
+                    android:background="@drawable/main_mainbox"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <com.greencross.medigene.component.CFontTextView
+                        style="@style/common_textview_fields_agree"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:padding="13dp"
+                        android:textColor="@color/colorWhite"
+                        android:text="이상반응 주의" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="10dp"
+                            android:orientation="vertical">
+
+                            <com.greencross.medigene.component.CFontTextView
+                                style="@style/common_textview_fields_agree"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                android:text="글리메피리드" />
+                            <com.greencross.medigene.component.CFontTextView
+                                style="@style/common_textview_fields_agree"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                android:text="톨부타미드" />
+                            <com.greencross.medigene.component.CFontTextView
+                                style="@style/common_textview_fields_agree"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                android:text="글리벤클라미드" />
+                            <com.greencross.medigene.component.CFontTextView
+                                style="@style/common_textview_fields_agree"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                android:text="글리클라지드" />
+                            <com.greencross.medigene.component.CFontTextView
+                                style="@style/common_textview_fields_agree"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                android:text="로살탄" />
+                            <com.greencross.medigene.component.CFontTextView
+                                style="@style/common_textview_fields_agree"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                android:text="이르베사르탄" />
+                            <com.greencross.medigene.component.CFontTextView
+                                style="@style/common_textview_fields_agree"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                android:text="세레콕시브" />
+                            <com.greencross.medigene.component.CFontTextView
+                                style="@style/common_textview_fields_agree"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                android:text="이부플펜" />
+                            <com.greencross.medigene.component.CFontTextView
+                                style="@style/common_textview_fields_agree"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                android:text="디클로페낙" />
+                            <com.greencross.medigene.component.CFontTextView
+                                style="@style/common_textview_fields_agree"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                android:text="나프록센" />
+                            <com.greencross.medigene.component.CFontTextView
+                                style="@style/common_textview_fields_agree"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                android:text="피록시캄" />
+                            <com.greencross.medigene.component.CFontTextView
+                                style="@style/common_textview_fields_agree"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                android:text="클로피도그렐" />
+                            <com.greencross.medigene.component.CFontTextView
+                                style="@style/common_textview_fields_agree"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                android:text="와파린" />
+                            <com.greencross.medigene.component.CFontTextView
+                                style="@style/common_textview_fields_agree"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                android:text="아세노쿠마롤" />
+                            <com.greencross.medigene.component.CFontTextView
+                                style="@style/common_textview_fields_agree"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                android:text="펜프로쿠몬" />
+                            <com.greencross.medigene.component.CFontTextView
+                                style="@style/common_textview_fields_agree"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                android:text="페니토인" />
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+
+                <!--주의약물 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/main_subbox"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <com.greencross.medigene.component.CFontTextView
+                            style="@style/common_textview_fields_agree"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:padding="13dp"
+                            android:textColor="@color/colorWhite"
+                            android:text="치료효과 감소" />
+
+                        <com.greencross.medigene.component.CFontTextView
+                            style="@style/common_textview_fields_agree"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="메트포르민"
+                            android:paddingBottom="20dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+
+
+
+            <!--약품검색 검사결과보기  -->
+            <LinearLayout
+                android:id="@+id/li_main_footer"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@color/colorWhite"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"/>
+
+                <LinearLayout
+                    android:id="@+id/li_drug_search"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:paddingTop="25dp"
+                    android:orientation="vertical"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_main_search"
+                        android:clickable="false"/>
+
+                    <com.greencross.medigene.component.CFontTextView
+                        style="@style/common_textview_fields_agree"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:padding="13dp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorBlack"
+                        android:text="약품검색"
+                        android:clickable="false"/>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp">
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorGray"
+                        android:layout_centerInParent="true"
+                        />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/li_drug_result"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:paddingTop="25dp"
+                    android:clickable="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_main_result"
+                        android:clickable="false" />
+
+                    <com.greencross.medigene.component.CFontTextView
+                        style="@style/common_textview_fields_agree"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:padding="13dp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorBlack"
+                        android:text="검사결과 보기"
+                        android:clickable="false"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"/>
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
+    <include
+        layout="@layout/app_bar_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/activity_navigation_drawer"/>
+
+
+    <!--app:headerLayout="@layout/nav_header_navigation"-->
+
+
+
+
+</android.support.v4.widget.DrawerLayout>

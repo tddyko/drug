@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorBackgound"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_check_off_16dp" />
+
+
+        <com.greencross.medigene.component.CFontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="검사하실 지역을 선택해 주세요"
+            android:textColor="@color/colorAlertTitleGray"
+            android:textSize="13dp"
+            app:font="@string/KelsonSansBold"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackgound"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+    <!--table zone-->
+    <LinearLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+            <!-- 서울 / 경기-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/Seoul_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_border"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.greencross.medigene.component.CFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dip"
+                            android:gravity="center"
+                            android:text="@string/seoul"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_gravity="center_vertical|right"
+                        android:contentDescription="@string/selectLocationComment"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip"
+                        android:src="@drawable/ic_expand_next_black2" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/Gyeonggi_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_border"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.greencross.medigene.component.CFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dip"
+                            android:gravity="center"
+                            android:text="@string/gyeonggi"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_gravity="center_vertical|right"
+                        android:contentDescription="@string/selectLocationComment"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip"
+                        android:src="@drawable/ic_expand_next_black2" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <!-- 인천 / 부산 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/Incheon_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_border"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.greencross.medigene.component.CFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dip"
+                            android:gravity="center"
+                            android:text="@string/incheon"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_gravity="center_vertical|right"
+                        android:contentDescription="@string/selectLocationComment"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip"
+                        android:src="@drawable/ic_expand_next_black2" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/Busan_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_border"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.greencross.medigene.component.CFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dip"
+                            android:gravity="center"
+                            android:text="@string/busan"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_gravity="center_vertical|right"
+                        android:contentDescription="@string/selectLocationComment"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip"
+                        android:src="@drawable/ic_expand_next_black2" />
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <!-- 울산 / 경남 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/Ulsan_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_border"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.greencross.medigene.component.CFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dip"
+                            android:gravity="center"
+                            android:text="@string/ulsan"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_gravity="center_vertical|right"
+                        android:contentDescription="@string/selectLocationComment"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip"
+                        android:src="@drawable/ic_expand_next_black2" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/Gyeongnam_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_border"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.greencross.medigene.component.CFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dip"
+                            android:gravity="center"
+                            android:text="@string/gyeonnam"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_gravity="center_vertical|right"
+                        android:contentDescription="@string/selectLocationComment"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip"
+                        android:src="@drawable/ic_expand_next_black2" />
+                </FrameLayout>
+            </LinearLayout>
+
+
+             <!-- 대구 / 경북 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/Daegu_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_border"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.greencross.medigene.component.CFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dip"
+                            android:gravity="center"
+                            android:text="@string/daegu"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_gravity="center_vertical|right"
+                        android:contentDescription="@string/selectLocationComment"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip"
+                        android:src="@drawable/ic_expand_next_black2" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/Gyeonbuk_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_border"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.greencross.medigene.component.CFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dip"
+                            android:gravity="center"
+                            android:text="@string/gyeonbuk"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_gravity="center_vertical|right"
+                        android:contentDescription="@string/selectLocationComment"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip"
+                        android:src="@drawable/ic_expand_next_black2" />
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <!-- 대전 / 충남 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/Daejeon_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_border"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.greencross.medigene.component.CFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dip"
+                            android:gravity="center"
+                            android:text="@string/daejeon"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_gravity="center_vertical|right"
+                        android:contentDescription="@string/selectLocationComment"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip"
+                        android:src="@drawable/ic_expand_next_black2" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/Chungnam_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_border"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.greencross.medigene.component.CFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dip"
+                            android:gravity="center"
+                            android:text="@string/chungnam"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_gravity="center_vertical|right"
+                        android:contentDescription="@string/selectLocationComment"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip"
+                        android:src="@drawable/ic_expand_next_black2" />
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <!-- 충북 / 전북 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/Chungbuk_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_border"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.greencross.medigene.component.CFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dip"
+                            android:gravity="center"
+                            android:text="@string/chungbuk"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_gravity="center_vertical|right"
+                        android:contentDescription="@string/selectLocationComment"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip"
+                        android:src="@drawable/ic_expand_next_black2" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/Jeonbuk_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_border"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.greencross.medigene.component.CFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dip"
+                            android:gravity="center"
+                            android:text="@string/jeonbuk"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_gravity="center_vertical|right"
+                        android:contentDescription="@string/selectLocationComment"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip"
+                        android:src="@drawable/ic_expand_next_black2" />
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <!-- 광주 / 전남 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/Gwangju_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_border"
+                    android:layout_margin="5dp">
+
+                    <ImageView
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_gravity="center_vertical|right"
+                        android:contentDescription="@string/selectLocationComment"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip"
+                        android:src="@drawable/ic_expand_next_black2" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.greencross.medigene.component.CFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dip"
+                            android:gravity="center"
+                            android:text="@string/gwangju"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/Jeonnam_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_border"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.greencross.medigene.component.CFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dip"
+                            android:gravity="center"
+                            android:text="@string/jeonnam"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_gravity="center_vertical|right"
+                        android:contentDescription="@string/selectLocationComment"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip"
+                        android:src="@drawable/ic_expand_next_black2" />
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <!-- 강원 / 제주 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/Gangwon_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_border"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.greencross.medigene.component.CFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dip"
+                            android:gravity="center"
+                            android:text="@string/gangwon"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_gravity="center_vertical|right"
+                        android:contentDescription="@string/selectLocationComment"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip"
+                        android:src="@drawable/ic_expand_next_black2" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/Jeju_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_border"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.greencross.medigene.component.CFontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dip"
+                            android:gravity="center"
+                            android:text="@string/jeju"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_gravity="center_vertical|right"
+                        android:contentDescription="@string/selectLocationComment"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip"
+                        android:src="@drawable/ic_expand_next_black2" />
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

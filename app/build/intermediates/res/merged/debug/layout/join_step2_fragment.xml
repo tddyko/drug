@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 회원가입 1/3-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/colorBackgound"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp">
+
+        <LinearLayout
+            style="@style/common_parent_style"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <com.greencross.medigene.component.CFontTextView
+                        style="@style/common_textview_fields"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="0dp"
+                        android:text="ID(이메일)"
+                        android:textSize="13sp"
+                        app:font="@string/KelsonSansBold" />
+                </LinearLayout>
+
+
+                <com.greencross.medigene.component.CFontEditText
+                    android:id="@+id/login_id_edittext"
+                    style="@style/common_edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:hint="@string/join_step1_id_hint"
+                    android:inputType="textEmailAddress"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvUserEmail"
+                style="@style/member_textview_fields"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="0dp"
+                        android:text="비밀번호"
+                        android:textSize="13sp"
+                        app:font="@string/KelsonSansBold" />
+                </LinearLayout>
+
+
+                <com.greencross.medigene.component.CFontEditText
+                    android:id="@+id/join_step1_pwd_edittext1"
+                    style="@style/common_edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:hint="@string/join_step1_pwd_hint1"
+                    android:maxLength="15"
+                    android:inputType="textPassword"
+                    android:maxLines="1"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="0dp"
+                        android:text="확인 비밀번호"
+                        android:textSize="13sp"
+                        app:font="@string/KelsonSansBold" />
+                </LinearLayout>
+
+
+                <com.greencross.medigene.component.CFontEditText
+                    android:id="@+id/join_step1_pwd_edittext2"
+                    style="@style/common_edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:hint="@string/join_step1_pwd_hint2"
+                    android:maxLength="15"
+                    android:inputType="textPassword"
+                    android:maxLines="1" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+        <com.greencross.medigene.component.CFontButton
+            android:id="@+id/next_button"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorMain"
+            android:layout_alignParentBottom="true"
+            android:text="가입완료"
+            android:textColor="@color/colorWhite"
+            app:font="@string/KelsonSansBold"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

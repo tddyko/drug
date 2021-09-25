@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:background="@color/colorBackgound"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="120"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            >
+            <com.greencross.medigene.component.CFontEditText
+                android:id="@+id/drug_keyword_search"
+                style="@style/common_edittext_style"
+                android:layout_width="match_parent"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:hint="검색어를 입력하세요."/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            >
+
+            <com.greencross.medigene.component.CFontButton
+                android:id="@+id/search_drug_button"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/colorSub"
+                android:textColor="@color/colorWhite"
+                android:text="검색" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@color/colorBackgound"
+        >
+
+        <TextView
+            android:id="@+id/search_null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorGray"
+            android:visibility="gone"
+            android:text="검색 키워드를 입력하세요."
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/nosearch_lin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="50dp"
+            android:visibility="invisible">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_notfound"/>
+            <com.greencross.medigene.component.CFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorSteelGray"
+                android:text="일치하는 약품이 없습니다."/>
+        </LinearLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+                    android:id="@+id/druglist_recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+    </RelativeLayout>
+</LinearLayout>

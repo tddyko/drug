@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/checkresult1"
+                android:layout_marginBottom="10dp"/>
+
+            <com.greencross.medigene.component.CFontTextView
+                android:layout_width="60dp"
+                android:layout_height="18dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/opinion" />
+
+            <com.greencross.medigene.component.CFontTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="홍 길 동 님은\n약물 39개 약물제제 중 표준용량 2 개, 이상반응 주의 1 개,\n치료효과감소 2 개로 확인되었습니다. 질환과 관련된 약물을\n복용 시 주의 가 필요합니다."/>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/checkresult2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="10">
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="치료효과 : "
+                        android:textColor="@color/colorCrayonOrange"/>
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:text="제2형 당뇨병의 치료"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="10">
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="주요 이상반응 : "
+                        android:textColor="@color/colorCrayonOrange"/>
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:text="무력감, 고혈압, 협심증. 부정맥.적혈구 감소증, 오심, 구토, 설사, 홍반, 가려움증 등"/>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/checkresult3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="10">
+
+                    <com.greencross.medigene.component.CFontTextView
+                        android:id="@+id/CFontTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="치료효과 : "
+                        android:textColor="@color/colorCrayonOrange" />
+
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:text="고지혈증 및 이상지질혈증의 치료"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="10">
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="주요 이상반응 : "
+                        android:textColor="@color/colorCrayonOrange"/>
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:text="근육경련, 근육통, 아나필락시스, 당뇨병 등"/>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/checkresult4" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="10">
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="치료효과 : "
+                        android:textColor="@color/colorCrayonOrange"/>
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:text="고혈압의 치료"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="10">
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="주요 이상반응 : "
+                        android:textColor="@color/colorCrayonOrange"/>
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:text="홍조, 피로, 부종, 현기증, 두통, 졸음, 복통, 오심, 간기능 이상, 빈혈, 근육통, 무력감, 미각 이상, 마른기침 등"/>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/checkresult5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="10">
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="치료효과 : "
+                        android:textColor="@color/colorCrayonOrange"/>
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:text="골관절염(퇴행성 관절염) / 류마티스 관절염/급성 통증 / 월경통의 치료"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="10">
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="주요 이상반응 : "
+                        android:textColor="@color/colorCrayonOrange"/>
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:text="소화불량, 설사,식도염, 혈변, 구토, 치아질환, 두통, 어지러움, 다리 경련, 호흡곤란 등"/>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/checkresult6" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="10">
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="치료효과 : "
+                        android:textColor="@color/colorCrayonOrange"/>
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:text="뇌졸중, 심근경색, 동맥 경화증 등의 증상 개선 및 2차 혈전증예방"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="10">
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="주요 이상반응 : "
+                        android:textColor="@color/colorCrayonOrange"/>
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:text="출혈성 관절증, 혈뇨증, 객혈,뇌출혈, 재생불량성 빈혈, 혈색소감소 빈혈, 백혈병, 과량 투여에 의한 출혈, 출혈성 합병증 (감각이상, 두통, 근육통증 등)"/>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/checkresult7" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="10">
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="치료효과 : "
+                        android:textColor="@color/colorCrayonOrange"/>
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:text="위궤양, 역류성 식도염, 소화기궤양의 치료, 헬리코박터균감염으로 인한 소화기궤양의 항생제 병용, 비스테로이드성 소염진통제(NSAID) 투여로 인한 위궤양"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="10">
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="주요 이상반응 : "
+                        android:textColor="@color/colorCrayonOrange"/>
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:text="두통, 졸림, 불면증,어지러움, 설사, 변비, 구역, 구토, 흉통, 빈맥 등"/>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/checkresult8" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="10">
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="치료효과 : "
+                        android:textColor="@color/colorCrayonOrange"/>
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:text="우울증, 공황장애, 강박장애의 치료"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="10">
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="주요 이상반응 : "
+                        android:textColor="@color/colorCrayonOrange"/>
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:text="빈맥, 저혈압, 서맥, 부종,구갈, 배뇨곤란,고열, 감각이상, 편두통, 어지러움, 긴장과도,신경통, 근긴장이상 등"/>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/checkresult9" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="10">
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="치료효과 : "
+                        android:textColor="@color/colorCrayonOrange"/>
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:text="간질,디기탈리스 중독으로 인한 부정맥(심실성 부정맥)의 치료"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="10">
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="주요 이상반응 : "
+                        android:textColor="@color/colorCrayonOrange"/>
+                    <com.greencross.medigene.component.CFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:text="신경병증, 어지러움, 정신착란, 구음장애, 불면, 신경과민, 두통, 혈소판감소, 백혈구감소 등"/>
+                </LinearLayout>
+            </LinearLayout>
+            <com.greencross.medigene.component.CFontTextView
+                android:layout_width="80dp"
+                android:layout_height="18dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/etc" />
+
+            <com.greencross.medigene.component.CFontTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="• 검사항목 유전자와 연관된 약물의 감수성 결과만 제공됩니다.\n• 해당 검사의 결과는 질병의 진단과는 무관하며, 진단 및 치료 결정을 위해서는 반드시 의사의 상담이 필요합니다. 또한 CYP2C9, CYP2C19 유전자 이외의 일부 유전자는 대단위 메타분석 기반의 임상적 근거가 필요한 연구용 검사로서, 유전자에 따라 임상적 유용성이 상이할 수 있습니다.\n• 검사대상자의 임상과거력 및 본 검사에 포함되어 있지 않은 유전요인으로 인하여 제공해드리는 결과와 검사 대상자의 실제 약물 감수성 차이가 존재할 수 있으며, 복용량 및 용법조절이 필요할 수 있으므로 최종적인 약물 처방은 담당전문의와의 상담이 반드시 필요합니다."/>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.greencross.medigene.component.CFontButton
+        android:id="@+id/result_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorMain"
+        android:textColor="@color/colorWhite"
+        app:font="@string/KelsonSansBold"
+        android:text="검사 결과에 대한 상담하기" />
+</LinearLayout>
+
+
+    <include
+        layout="@layout/app_bar_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/activity_navigation_drawer"/>
+
+
+    </android.support.v4.widget.DrawerLayout>

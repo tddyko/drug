@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/linear_drug_001"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorBackgound"
+        android:layout_above="@+id/drug_detailview_button"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:background="@color/colorBackgound"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <com.greencross.medigene.component.CFontButton
+                    android:id="@+id/bnt_prescription_add"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="50"
+                    android:background="@color/colorMain"
+                    android:text="처방전에 추가"
+                    android:textColor="@color/colorWhite"
+                    app:font="@string/KelsonSansBold" />
+
+                <com.greencross.medigene.component.CFontButton
+                    android:id="@+id/bnt_favorites_add"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="50"
+                    android:background="@color/colorSub"
+                    android:text="즐겨찾기 추가"
+                    android:textColor="@color/colorWhite"
+                    app:font="@string/KelsonSansBold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <ScrollView
+            android:id="@+id/scroll_drug_001"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackgound">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:id="@+id/drug_visual_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_below="@+id/drug_visual_image"
+                    android:background="@drawable/background_border"
+                    android:orientation="vertical"
+                    >
+
+                    <com.greencross.medigene.component.CFontTextView
+                        android:id="@+id/drug_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack"
+                        android:text="세렉스캡슐"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="15dp"
+                        app:font="@string/KelsonSansBold"
+                        android:textSize="18sp" />
+
+                    <com.greencross.medigene.component.CFontTextView
+                        android:id="@+id/drug_category"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorAlertTitleGray"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="18dp"
+                        android:text="-"
+                        android:textSize="11sp" />
+
+
+                    <LinearLayout
+                        android:id="@+id/drug_attributes_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:orientation="vertical"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="13dp"
+                                android:layout_height="13dp"
+                                android:layout_gravity="center_vertical"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/ic_info_clock_info" />
+
+                            <com.greencross.medigene.component.CFontTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorFields"
+                                android:layout_marginLeft="5dp"
+                                android:text="성분정보"
+                                app:font="@string/KelsonSansBold"
+                                android:textSize="13sp" />
+
+                        </LinearLayout>
+
+
+                        <!--아이템 1-->
+                        <RelativeLayout
+                            android:id="@+id/drug_attributes_item1_group"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="1dp">
+
+                            <com.greencross.medigene.component.CFontTextView
+                                android:id="@+id/drug_attributes_item1_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="3dp"
+                                android:text=""
+                                android:textColor="@color/colorBlack"
+                                android:textSize="13sp" />
+
+                            <com.greencross.medigene.component.CFontTextView
+                                android:id="@+id/drug_attributes_item1_icon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:textAlignment="center"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+                                android:textColor="@color/colorWhite"
+                                android:textStyle="bold"/>
+
+                        </RelativeLayout>
+
+
+                        <!--아이템 2-->
+                        <RelativeLayout
+                            android:id="@+id/drug_attributes_item2_group"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="1dp"
+                            android:visibility="gone"
+                            android:orientation="horizontal"
+                            >
+                            <com.greencross.medigene.component.CFontTextView
+                                android:id="@+id/drug_attributes_item2_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorBlack"
+                                android:paddingLeft="3dp"
+                                android:text=""
+                                android:textSize="13sp" />
+
+                            <com.greencross.medigene.component.CFontTextView
+                                android:id="@+id/drug_attributes_item2_icon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:textAlignment="center"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+                                android:textColor="@color/colorWhite" />
+
+                        </RelativeLayout>
+
+                        <!--아이템3-->
+                        <RelativeLayout
+                            android:id="@+id/drug_attributes_item3_group"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="1dp"
+                            android:visibility="gone"
+                            android:orientation="horizontal"
+                            >
+                            <com.greencross.medigene.component.CFontTextView
+                                android:id="@+id/drug_attributes_item3_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorBlack"
+                                android:paddingLeft="3dp"
+                                android:text=""
+                                android:textSize="13sp" />
+
+                            <com.greencross.medigene.component.CFontTextView
+                                android:id="@+id/drug_attributes_item3_icon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:textAlignment="center"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+                                android:textColor="@color/colorWhite"/>
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:orientation="vertical"
+                        >
+                        <LinearLayout
+                            android:id="@+id/drug_efficacy_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="13dp"
+                                android:layout_height="13dp"
+                                android:layout_gravity="center_vertical"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/ic_info_effects" />
+
+                            <com.greencross.medigene.component.CFontTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorFields"
+                                android:layout_marginLeft="5dp"
+                                android:text="효능효과"
+                                app:font="@string/KelsonSansBold"
+                                android:textSize="13sp" />
+
+                        </LinearLayout>
+
+
+                        <com.greencross.medigene.component.CFontTextView
+                            android:id="@+id/drug_efficacy_contents"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:paddingLeft="3dp"
+                            android:textColor="@color/colorSub"
+                            android:text="성분정보성분정보성분정보성분정보성분정보"
+                            android:maxLines="100"
+                            android:layout_weight="1"
+                            android:ellipsize="none"
+                            android:scrollHorizontally="false"
+                            android:singleLine="false"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:orientation="vertical"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="13dp"
+                                android:layout_height="13dp"
+                                android:layout_gravity="center_vertical"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/ic_info_drugmanufacture" />
+
+                            <com.greencross.medigene.component.CFontTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorFields"
+                                android:layout_marginLeft="5dp"
+                                android:text="출처"
+                                app:font="@string/KelsonSansBold"
+                                android:textSize="13sp" />
+
+                        </LinearLayout>
+
+                        <com.greencross.medigene.component.CFontTextView
+                            android:id="@+id/drug_source_contents"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorBlack"
+                            android:paddingLeft="3dp"
+                            android:text=""
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.greencross.medigene.component.CFontButton
+        android:id="@+id/drug_detailview_button"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorMain"
+        android:text="약물정보 자세히보기"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:font="@string/KelsonSansBold"
+        />
+
+</RelativeLayout>

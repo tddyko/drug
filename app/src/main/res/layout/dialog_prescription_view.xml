@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/dlalog_prescription_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+
+        <LinearLayout
+            android:id="@+id/li_notfound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_notfound" />
+
+            <com.greencross.medigene.component.CFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingLeft="3dp"
+                android:text="처방전 데이터가 없습니다."
+                android:textAlignment="center"
+                android:textColor="@color/colorSub"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <com.greencross.medigene.component.CFontButton
+            android:id="@+id/dialog_close_prescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorSub"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:text="닫기"
+            android:textColor="@color/colorWhite"
+            app:font="@string/KelsonSansBold"/>
+
+        <com.greencross.medigene.component.CFontButton
+            android:id="@+id/dialog_add_prescription_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:background="@color/colorMain"
+            android:minHeight="40dp"
+            android:gravity="center"
+            android:text="처방전 추가"
+            android:textColor="@color/colorWhite"
+            app:font="@string/KelsonSansBold"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

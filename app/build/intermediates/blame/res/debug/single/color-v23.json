@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/d0fb4f531483f928d547a68e7b6a672d818e5416/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/kominhyuk/.android/build-cache/3bdcd26617c0bbff192b8c0139405903ba275d2f/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    }
+]

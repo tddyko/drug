@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/kominhyuk/Project/drug/app/libs/json-simple-1.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5d6f9b6a9ddca2a28c0216cc44efb2e20d9c23b5">
+        <dex dex="/Users/kominhyuk/Project/drug/app/build/intermediates/transforms/dex/debug/folders/1000/2/json-simple-1.1.1_66ca9a953a442fadd350415848ad253446fa1611/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kominhyuk/Project/drug/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/kominhyuk/Project/drug/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7114a0be5b746bef8d6f77efec0392f7b478d1c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kominhyuk/Project/drug/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="732a699b3933c62b48d4eea48c6ce2684e2c5ff3">
+        <dex dex="/Users/kominhyuk/Project/drug/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_750e40c1722fba174fb5441b74abfec6f8d3a110/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kominhyuk/Project/drug/app/libs/pwb_android_sdk_release_1.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b63da08444d519efd3978818a717f3e079f54c7f">
+        <dex dex="/Users/kominhyuk/Project/drug/app/build/intermediates/transforms/dex/debug/folders/1000/2/pwb_android_sdk_release_1.0.1_ee3bdad835debcd77e942cbe1c9e3dbceeceb088/classes.dex" />
+    </item>
+
+</items>

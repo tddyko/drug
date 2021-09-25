@@ -1,0 +1,922 @@
+[
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_radio_on_16dp.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_radio_on_16dp.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_alarm_black.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_alarm_black.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_main_settings.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_main_settings.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_hospital_info_list_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_hospital_info_list_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/p2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/p2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_medi_new.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_medi_new.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/bg_list_light.9.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/bg_list_light.9.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_checkbox_en.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_checkbox_en.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/woman_alarm_add_nor.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/woman_alarm_add_nor.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_main_info_q.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_main_info_q.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_call_checkup_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_call_checkup_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_popup_ok_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_popup_ok_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_gwangju_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_gwangju_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_dev_new.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_dev_new.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_man.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_man.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/p11.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/p11.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_main_result.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_main_result.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_mainmenu_cancle.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_mainmenu_cancle.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_radio_off_16dp.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_radio_off_16dp.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_drug2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_drug2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/wed_over.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/wed_over.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_user_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_user_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/arrow_left.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/arrow_left.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_kyungnam_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_kyungnam_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_incheon_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_incheon_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_hospital2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_hospital2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/bg_list_dark.9.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/bg_list_dark.9.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_location2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_location2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_ulsan_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_ulsan_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_home.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_home.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_left.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_left.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_gangwon_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_gangwon_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_form_gender.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_form_gender.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_close2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_close2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_gyeonggi_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_gyeonggi_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_jeju_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_jeju_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_pin_off2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_pin_off2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_listnew.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_listnew.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_jeonnam_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_jeonnam_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_effects2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_effects2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_next_dis.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_next_dis.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/expand_next.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/expand_next.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_listdel.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_listdel.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_hospital_list_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_hospital_list_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/thu_nor.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/thu_nor.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_hospital_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_hospital_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_gyeonggi_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_gyeonggi_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_main_add_prescription.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_main_add_prescription.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_chungbuk_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_chungbuk_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_chunbuk_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_chunbuk_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/mian_frag.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/mian_frag.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/cal_arrow_right.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/cal_arrow_right.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_call.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_call.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_pin_on2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_pin_on2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/p4.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/p4.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_form_filght.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_form_filght.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_clock_info2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_clock_info2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_cal.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_cal.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_daegu_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_daegu_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/magic_subtitle_02.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/magic_subtitle_02.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_hospital_list_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_hospital_list_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_register.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_register.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_close.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_close.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_main_home.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_main_home.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ck_backgroud_red.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ck_backgroud_red.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_hospital_map_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_hospital_map_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/p8.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/p8.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_clock.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_clock.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/magic_subtitle_01.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/magic_subtitle_01.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_write_medi.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_write_medi.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_pin_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_pin_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_clock_info.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_clock_info.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_main_search.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_main_search.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_back.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_back.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/arrow_down.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/arrow_down.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/cal_arrow_left.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/cal_arrow_left.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_notfound.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_notfound.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_food_add.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_food_add.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/bg_popup.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/bg_popup.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/oval_status_gray.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/oval_status_gray.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_busan_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_busan_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/img_map.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/img_map.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_mainmenu.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_mainmenu.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/p9.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/p9.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ck_backgroud_bule.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ck_backgroud_bule.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_hospital_health_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_hospital_health_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/watch_over.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/watch_over.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/mark_next.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/mark_next.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_main_call.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_main_call.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_check_off_16dp.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_check_off_16dp.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_location.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_location.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_popup_ok_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_popup_ok_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_launcher.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_msg_del.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_msg_del.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_gangwon_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_gangwon_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_chungbuk_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_chungbuk_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/bg_tabbar.9.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/bg_tabbar.9.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_kyongbuk_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_kyongbuk_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_calendar2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_calendar2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/watch_nor.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/watch_nor.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_incheon_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_incheon_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/sat_over.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/sat_over.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_chunbuk_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_chunbuk_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_clock2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_clock2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_picture_add.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_picture_add.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_symptom2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_symptom2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_drugmanufacture2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_drugmanufacture2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_busan_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_busan_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/magic_title.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/magic_title.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_daejeon_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_daejeon_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/thu_over.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/thu_over.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_form_birth.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_form_birth.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_hospital_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_hospital_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_add.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_add.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/arrow_right.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/arrow_right.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_expand_next_black2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_expand_next_black2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_new.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_new.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_drugmanufacture_dac.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_drugmanufacture_dac.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_alarm_gray.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_alarm_gray.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_input_x.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_input_x.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_swipe_del.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_swipe_del.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_effects.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_effects.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_device_text.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_device_text.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_bluetooth.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_bluetooth.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_search_12dp.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_search_12dp.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/oval_status_red.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/oval_status_red.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_loading_bar_spiral.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_loading_bar_spiral.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/tue_nor.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/tue_nor.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_input_o.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_input_o.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_jeonnam_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_jeonnam_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_camera.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_camera.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_delete.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_delete.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/line_green.9.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/line_green.9.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_popup_cancel_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_popup_cancel_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_call_reservation_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_call_reservation_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ck_backgroud_yell.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ck_backgroud_yell.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/bg_title.9.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/bg_title.9.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_dev_new_red.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_dev_new_red.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/bg_tweet_input.9.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/bg_tweet_input.9.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_search_18dp.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_search_18dp.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/p10.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/p10.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_check_on_16dp.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_check_on_16dp.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_32dp.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_32dp.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/p3.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/p3.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_chungnam_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_chungnam_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_exmark.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_exmark.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_alarm_60dp.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_alarm_60dp.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_time.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_time.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_back.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_back.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_food_round.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_food_round.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_setting.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_setting.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/edittext_basic.9.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/edittext_basic.9.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_daegu_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_daegu_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_dropdown.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_dropdown.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_search2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_search2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_kyongbuk_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_kyongbuk_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/mark_list.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/mark_list.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/oval_status_green.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/oval_status_green.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_daejeon_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_daejeon_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_hospital_info_list_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_hospital_info_list_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_service_info.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_service_info.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/p1.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/p1.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/p7.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/p7.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/sat_nor.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/sat_nor.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/bnt_down2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/bnt_down2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_expand_next_12dp.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_expand_next_12dp.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_swipe_edit.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_swipe_edit.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_up.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_up.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_plus.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_plus.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/tue_over.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/tue_over.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_add_22dp.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_add_22dp.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/medigeneintro.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/medigeneintro.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/delete.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/delete.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/vi.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/vi.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_seoul_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_seoul_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_hospital_info_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_hospital_info_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_new.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_new.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_search.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_search.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_user_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_user_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_back2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_back2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/wed_nor.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/wed_nor.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_call2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_call2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/fri_over.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/fri_over.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_pin_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_pin_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_main_info.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_main_info.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_hospital_health_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_hospital_health_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_popup_cancel_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_popup_cancel_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_ulsan_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_ulsan_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/oval_status_orange.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/oval_status_orange.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/sun_over.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/sun_over.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/mon_nor.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/mon_nor.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_targget.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_targget.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/mon_over.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/mon_over.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_write_new.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_write_new.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_new2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_new2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_checkbox_dis.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_checkbox_dis.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_drugmanufacture.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_drugmanufacture.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/p6.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/p6.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/fri_nor.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/fri_nor.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_hospital_map_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_hospital_map_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_drug.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_drug.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/line_blue.9.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/line_blue.9.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/p5.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/p5.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_form_mobile.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_form_mobile.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/magic_subtitle_04.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/magic_subtitle_04.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_hospital_info_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_hospital_info_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_down.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_down.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_reflash.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_reflash.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_device.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_device.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_chungnam_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_chungnam_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/bg_tweet_comment.9.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/bg_tweet_comment.9.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/arrow2_left.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/arrow2_left.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/magic_subtitle_03.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/magic_subtitle_03.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_hospital.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_info_hospital.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_black.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_black.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_main_alarm.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_main_alarm.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/sun_nor.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/sun_nor.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_msg_del2.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_msg_del2.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/deco_navigationbar.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/deco_navigationbar.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_gwangju_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_gwangju_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_setting_text.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/icon_setting_text.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/arrow2_right.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/arrow2_right.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_main_prescription.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_main_prescription.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_seoul_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_seoul_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_plus.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/ic_plus.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_kyungnam_on.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_kyungnam_on.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_map_jeju_off.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/btn_map_jeju_off.png"
+    },
+    {
+        "merged": "/Users/kominhyuk/Project/drug/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/bg_tweet.9.png",
+        "source": "/Users/kominhyuk/Project/drug/app/src/main/res/drawable-xxxhdpi/bg_tweet.9.png"
+    }
+]
